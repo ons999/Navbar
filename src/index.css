@@ -1,0 +1,33 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --navbar-bg: #f8f9fa;
+  --navbar-text: #000000;
+  --btn-bg: #007bff;
+  --btn-text: #ffffff;
+}
+
+.dark {
+  --bg-color: #343a40;
+  --text-color: #ffffff;
+  --navbar-bg: #212529;
+  --navbar-text: #ffffff;
+  --btn-bg: #1a1a1a;
+  --btn-text: #f8f9fa;
+}
+
+/* Apply variables to the body and Bootstrap classes */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--navbar-bg) !important;
+  color: var(--navbar-text) !important;
+}
+
+.btn {
+  background-color: var(--btn-bg) !important;
+  color: var(--btn-text) !important;
+}

@@ -1,0 +1,14 @@
+/* src/styles/Navbar.css */
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  .theme-toggle {
+    margin-left: auto;
+  }
+  
